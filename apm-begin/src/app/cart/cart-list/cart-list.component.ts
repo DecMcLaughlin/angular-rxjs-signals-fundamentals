@@ -4,10 +4,9 @@ import { CartItem } from '../cart';
 import { CartItemComponent } from '../cart-item/cart-item.component';
 
 @Component({
-  selector: 'sw-cart-list',
-  standalone: true,
-  imports: [CartItemComponent, NgFor, NgIf],
-  templateUrl: 'cart-list.component.html'
+    selector: 'sw-cart-list',
+    imports: [CartItemComponent, NgFor, NgIf],
+    templateUrl: 'cart-list.component.html'
 })
 export class CartListComponent {
   // Just enough here for the template to compile

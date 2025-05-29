@@ -6,7 +6,6 @@ import { Product } from '../product';
 @Component({
     selector: 'pm-product-detail',
     templateUrl: './product-detail.component.html',
-    standalone: true,
     imports: [NgIf, NgFor, CurrencyPipe]
 })
 export class ProductDetailComponent {

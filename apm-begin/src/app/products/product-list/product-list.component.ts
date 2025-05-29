@@ -7,8 +7,7 @@ import { ProductDetailComponent } from '../product-detail/product-detail.compone
 @Component({
     selector: 'pm-product-list',
     templateUrl: './product-list.component.html',
-    standalone: true,
-  imports: [NgIf, NgFor, NgClass, ProductDetailComponent]
+    imports: [NgIf, NgFor, NgClass, ProductDetailComponent]
 })
 export class ProductListComponent {
   // Just enough here for the template to compile

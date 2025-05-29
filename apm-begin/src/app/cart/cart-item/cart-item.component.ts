@@ -5,10 +5,9 @@ import { FormsModule } from '@angular/forms';
 import { CartItem } from '../cart';
 
 @Component({
-  selector: 'sw-cart-item',
-  standalone: true,
-  imports: [CurrencyPipe, FormsModule, NgFor, NgIf],
-  templateUrl: './cart-item.component.html'
+    selector: 'sw-cart-item',
+    imports: [CurrencyPipe, FormsModule, NgFor, NgIf],
+    templateUrl: './cart-item.component.html'
 })
 export class CartItemComponent {
 
